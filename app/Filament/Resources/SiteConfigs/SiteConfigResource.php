@@ -27,7 +27,7 @@ class SiteConfigResource extends Resource
 
     protected static ?string $pluralLabel = 'Meus Sites';
 
-    protected static string|UnitEnum|null $navigationGroup = 'Sites';
+    protected static string|UnitEnum|null $navigationGroup = 'Sites e Assinaturas';
 
     public static function form(Schema $schema): Schema
     {

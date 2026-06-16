@@ -21,10 +21,10 @@ class Subscription extends Model
     //     return $this->hasMany(Order::class);
     // }
 
-    // public function template(): BelongsTo
-    // {
-    //     return $this->belongsTo(Template::class);
-    // }
+    public function template(): BelongsTo
+    {
+        return $this->belongsTo(Template::class);
+    }
 
     public function user(): BelongsTo
     {
